@@ -1,0 +1,107 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    font-family: 'Nunito', sans-serif;
+}
+
+:root
+{
+    --primary-color:#ffb0bd;
+    --header-color:#8a4762;
+    --hover-color:#e56266;
+}
+
+@font-face
+{
+    src:url(../fonts/Nunito-Regular.ttf) format('truetype');
+    font-family: 'Nunito', sans-serif;
+}
+
+@font-face 
+{
+    src:url(../fonts/Nunito-ExtraBold.ttf) format('truetype');
+    font-family: 'Nunito-ExtraBold';
+}
+
+@font-face
+{
+    src:url(../fonts/Nunito-Bold.ttf) format('truetype');
+    font-family: 'Nunito-Bold';
+}
+
+@font-face 
+{
+    src:url(../fonts/Nunito-SemiBold.ttf) format('truetype');
+    font-family: 'Nunito-SemiBold';
+}
+
+@keyframes fadeIn 
+{
+    from
+    {
+        opacity: 0;
+    }
+
+    to 
+    {
+        opacity: 1;
+    }
+}
+
+@keyframes growUp 
+{
+    from
+    {
+        transform: translateY(10%);
+    }
+    to 
+    {
+        transform: translateY(0);
+    }
+}
+
+.width300px 
+{
+    width: 300px;
+}
+
+.flex-center
+{
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes popUp 
+{
+    from 
+    {
+        bottom:-44px;
+        left:0;
+        opacity: 0;
+    }
+
+    to 
+    {
+        bottom:0;
+        left:0;
+        opacity: 1;
+    }
+}
+
+@keyframes zoomUp 
+{
+    from
+    {
+        transform: scale(1);
+    }
+    to 
+    {
+        transform: scale(1.1);
+    }    
+}
