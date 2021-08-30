@@ -147,6 +147,10 @@
     {
         display: block;
     }
+    .label__input
+    {
+        display:none;
+    }
 }
 
 /* MOBILE  */
@@ -248,6 +252,7 @@
         position: fixed;
         top:0;
         left:0;
+        transform: translateX(-100%);
     }
     .menu__item:first-child
     {
@@ -280,6 +285,14 @@
     {
         font-size: 30px;
         color:white;
+    }
+    .menu__overlay
+    {
+        display:none;
+    }
+    .label__input
+    {
+        display:none;
     }
 }
 
